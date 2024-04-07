@@ -14,3 +14,11 @@ Create Protest Page Here, users can initiate a new protest by filling out a form
 About Page The About Page contains comprehensive information about the project, outlining its purpose, features, and the team behind it.<br>
 
 Each page is designed to be responsive, ensuring a seamless user experience across all devices<br>
+
+Project Dependencies: 
+Ether.js
+React
+
+PPT link: https://docs.google.com/presentation/d/1wk-x35l-a41prPdyU2w6xIEcCdmKRNq-/edit?usp=drive_link&ouid=106123035967170627709&rtpof=true&sd=true
+
+Video presentation link: https://youtu.be/3JHZUnIIZfg
