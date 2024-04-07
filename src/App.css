@@ -1,0 +1,282 @@
+body{
+  margin: 0px;
+  width:100%;
+  color: black;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  background-color: black;
+  margin-bottom: 10px;
+  height: 75px;
+  align-items: center;
+}
+
+.behind-logo-img{
+  height: 120px;
+  position: relative;
+  top: 35px;
+  left: 35px;
+  border-radius: 16px;
+}
+
+.logo{
+  left: 0%;
+}
+
+/* Profile Details */
+
+.profile{
+  border-radius: 8px;
+  border: solid gray 0.8px;
+  margin: 3px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  box-shadow: 5px 10px 10px rgb(131, 129, 129);
+  border-radius: 9px;
+}
+
+.profile-bottom-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.rating{
+  flex: 1;
+  border: solid;
+  border-radius: 26px;
+  padding: 10px;
+  margin: 25px;
+  background-color: inherit;
+}
+
+.overall-rating{
+  display: block;
+}
+
+.profile-description{
+  justify-content: center;
+  align-items: center;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+}
+
+.image-container{
+  object-fit: fill;
+  flex: 1;
+}
+
+.image-behind-profile{
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.profile-img{
+  left: 6%;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.info-container{
+  display: block;
+  flex: 3;
+  padding: 75px;
+  font-size: 26px;
+  left: 7%;
+}
+
+.name, .designation, .place{
+  padding-top: 0px;
+  padding-bottom: 16px;
+  margin: 0px;
+}
+
+p{
+  font-size: 20px;
+}
+
+/* Politician Data */
+.politician-data{
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 8px;
+  border: solid gray 0.8px;
+  margin: 3px;
+  padding: 36px;
+  row-gap: 10px;
+}
+
+
+.data-field1, .data-field2, .data-field3{
+  padding: 36px;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.data-left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 36px;
+  margin-right: 26px;
+  flex: 1;
+  width: 25%;
+  box-shadow: 5px 10px 10px rgb(131, 129, 129);
+}
+
+.data-title{
+  display: inline-block;
+  margin: 0px;
+}
+
+.modal-button{
+  background-color: inherit;
+}
+
+.data-img{
+  height: 36px;
+}
+
+.data-description{
+  padding-left: 36px;
+}
+
+.data-right{
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  flex: 1;
+  width: 25%;
+  box-shadow: 5px 5px 10px rgb(131, 129, 129);
+  float: right;
+}
+
+.rating-parent-container{
+  border-radius: 8px;
+  border: solid gray 0.8px;
+  margin: 3px;
+  padding: 36px;
+  row-gap: 10px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  height: 25vh;
+  background-color: #FFE8E9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  flex-wrap: wrap;
+  height: 30px;
+}
+
+.ratings{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.rating-no_1-4{
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #FF7574;
+  transition: box-shadow 0.3s ease;
+}
+
+.rating-no_5-7{
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #F9BE00;
+  transition: box-shadow 0.3s ease;
+}
+
+.rating-no_8-10{
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #76CE1E;
+  transition: box-shadow 0.3s ease;
+}
+
+.rating-no_1-4:hover, .rating-no_5-7:hover, .rating-no_8-10:hover{
+  box-shadow: 0px 0px 3px 1px rgb(136, 136, 136);
+}
+
+.required-text{
+  padding: 0px;
+  margin: 0px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  width: 21% ;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+.btn:active, .next-button:active{
+  transform: translateY(2px);
+}
